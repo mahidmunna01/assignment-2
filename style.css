@@ -43,8 +43,10 @@
 }
 
 /* ##Header Part Design */
-.header{
-  max-width: 1250px;
+.header,
+.main
+{
+  max-width: 1400px;
   margin: 20px auto;
 }
 /* nav part */
@@ -116,4 +118,67 @@ ul li a{
 }
 .banner-img{
   width: 460px;
+}
+
+
+/* Curriculum Section */
+
+.Curriculum-section{
+  text-align: center;
+  background-image: url(assets/bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 5% 0;
+}
+.Curriculum-section-info{
+  margin-bottom: 5%;
+}
+
+/* Card Design */
+.card-box{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+.card-box p{
+  line-height: 30px;
+}
+.card-style{
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 3%;
+  cursor: pointer;
+}
+.card-one{
+ box-shadow: inset 0px 20px 0px #01ACFD;
+}
+.card-two{
+ box-shadow: inset 0px 20px 0px #FEA301;
+}
+.card-three{
+ box-shadow: inset 0px 20px 0px #5D58EF;
+}
+.card-title{
+  font-size: 1.5rem;
+}
+.card-one a,
+.card-two a,.card-three a{
+ font-weight: bold;
+ text-decoration: none;
+}
+.card-one a{
+  color: var(--secondary-color-skyblue);
+}
+.card-two a{
+  color: var(--primary-color-orange);
+}
+.next-icon{
+  text-align: center;
+}
+.fa-circle-chevron-left,
+.fa-circle-chevron-right{
+  font-size: 3rem;
+  color: #FEA301;
+  margin: 5px;
 }

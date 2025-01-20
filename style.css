@@ -46,7 +46,7 @@
 .header,
 .main
 {
-  max-width: 1400px;
+  max-width: 1300px;
   margin: 20px auto;
 }
 /* nav part */
@@ -135,31 +135,32 @@ ul li a{
 }
 
 /* Card Design */
-.card-box{
+.Curriculum-section .card-box{
   display: flex;
   justify-content: space-between;
   margin-bottom: 5%;
+  gap: 20px;
 }
-.card-box p{
+.Curriculum-section .card-box p{
   line-height: 30px;
 }
 .card-style{
-  width: 300px;
+  width: 400px;
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 3%;
   cursor: pointer;
 }
-.card-one{
+.Curriculum-section .card-one{
  box-shadow: inset 0px 20px 0px #01ACFD;
 }
-.card-two{
+.Curriculum-section .card-two{
  box-shadow: inset 0px 20px 0px #FEA301;
 }
-.card-three{
+.Curriculum-section .card-three{
  box-shadow: inset 0px 20px 0px #5D58EF;
 }
-.card-title{
+.Curriculum-section .card-title{
   font-size: 1.5rem;
 }
 .card-one a,
@@ -167,10 +168,10 @@ ul li a{
  font-weight: bold;
  text-decoration: none;
 }
-.card-one a{
+.Curriculum-section .card-one a{
   color: var(--secondary-color-skyblue);
 }
-.card-two a{
+.Curriculum-section .card-two a{
   color: var(--primary-color-orange);
 }
 .next-icon{
@@ -182,3 +183,9 @@ ul li a{
   color: #FEA301;
   margin: 5px;
 }
+.fa-circle-chevron-left:hover,
+.fa-circle-chevron-right:hover{
+  color: black;
+}
+
+/* school story section */

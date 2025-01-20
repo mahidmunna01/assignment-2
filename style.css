@@ -1,0 +1,119 @@
+/* Color Declear */
+:root{
+  --primary-color-orange:#FEA301;
+  --secondary-color-skyblue:#01ACFD;
+
+  /* More Color */
+  --one:#05D4DF;
+  --two:#5D58EF;
+  --three:#95B226;
+}
+/* Button Design */
+/* shared -button */
+.btn{
+ color: white;
+ border-radius: 8px;
+ font-size: 1rem;
+ padding: 10px 35px;
+ border: none;
+ cursor: pointer;
+}
+.btnone{
+ background-color: var(--primary-color-orange);
+}
+.btntwo{
+ background-color: black;
+ margin-top: 20px;
+}
+.btn-three{
+  background-color: var(--one);
+  color: white;
+}
+.btn-four{
+  background-color: var(--three);
+  color: white;
+}
+.btn-five{
+  background-color: var(--three);
+  color: white;
+}
+/* Custome font Quicksand */
+.body{
+  font-family: "Quicksand", serif;
+}
+
+/* ##Header Part Design */
+.header{
+  max-width: 1250px;
+  margin: 20px auto;
+}
+/* nav part */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Logo-Part */
+.logo-part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+/* menu design */
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li{
+  list-style: none;
+  margin-right: 3rem;
+}
+ul li a{
+  text-decoration: none;
+  color: var(--primary-color-orange);
+  font-weight: bold;
+}
+.about{
+  color: var(--secondary-color-skyblue);
+  font-weight: 600;
+}
+.facilities{
+  color: var(--one);
+   font-weight: 600;
+}
+.admission{
+  color: var(--two);
+  font-weight: 600;
+}
+/* menu-button-part */
+.menu-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* banner-part */
+.banner{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.banner-left{
+  width: 640px;
+}
+.banner-title{
+  font-size: 3.5rem;
+}
+.banner-title-color-one{
+  color: var(--primary-color-orange);
+}
+.banner-title-color-two{
+  color: var(--secondary-color-skyblue);
+}
+.banner-description{
+  font-family: 1.25rem;
+}
+.banner-img{
+  width: 460px;
+}

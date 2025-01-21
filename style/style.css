@@ -20,10 +20,18 @@
 }
 .btnone{
  background-color: var(--primary-color-orange);
+ transition: 1s;
+}
+.btnone:hover{
+  background-color: black;
 }
 .btntwo{
  background-color: black;
  margin-top: 20px;
+}
+.btntwo:hover{
+  background-color: var(--primary-color-orange);
+  transition: 1s;
 }
 /* Custome font Quicksand */
 .body{
@@ -139,20 +147,44 @@ ul li a{
 }
 .card-style{
   width: 400px;
-  border: 1px solid #ddd;
+  background-color: white;
   border-radius: 10px;
   padding: 3%;
   cursor: pointer;
 }
+
 .Curriculum-section .card-one{
  box-shadow: inset 0px 20px 0px #01ACFD;
+}
+.Curriculum-section .card-one:hover{
+ background-color: #01ACFD;
+}
+.Curriculum-section .card-one:hover a,.Curriculum-section .card-one:hover p{
+  color: white;
 }
 .Curriculum-section .card-two{
  box-shadow: inset 0px 20px 0px #FEA301;
 }
+.Curriculum-section .card-two:hover p{
+  color: white;
+}
+.Curriculum-section .card-two:hover{
+ background-color: #FEA301;
+}
+.Curriculum-section .card-two:hover a{
+ color: white;
+}
+
 .Curriculum-section .card-three{
  box-shadow: inset 0px 20px 0px #5D58EF;
 }
+.Curriculum-section .card-three:hover{
+  background-color: #5D58EF;
+}
+.Curriculum-section .card-three:hover a, 
+.Curriculum-section .card-three:hover p{
+  color:white
+} 
 .Curriculum-section .card-title{
   font-size: 1.5rem;
 }
@@ -249,7 +281,6 @@ ul li a{
 .view-all-btn-section{
   text-align: center;
 }
-
 /* foooter Design */
 footer{
   background-color: var(--secondary-color-skyblue);

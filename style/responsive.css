@@ -84,12 +84,15 @@ footer section .left img{
 
 footer section .middle h3,
 footer section .right h3{
-  font-size: 1rem;
+   font-size: 1rem;
+}
+
+footer section .left h3{
+  bottom: 0;
 }
 footer section .left p,footer section .middle a,footer section .right a{
   font-size: 16px;
   margin-bottom: 5%;
 }
-
 }
 

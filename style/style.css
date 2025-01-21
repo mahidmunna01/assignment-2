@@ -14,7 +14,7 @@
  color: white;
  border-radius: 8px;
  font-size: 1rem;
- padding: 10px 35px;
+ padding: 12px 35px;
  border: none;
  cursor: pointer;
 }
@@ -143,7 +143,7 @@ ul li a{
   gap: 20px;
 }
 .Curriculum-section .card-box p{
-  line-height: 30px;
+  line-height: 25px;
 }
 .card-style{
   width: 400px;

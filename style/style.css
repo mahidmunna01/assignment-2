@@ -213,7 +213,8 @@ ul li a{
   color: black;
 }
 
-/* school story section */
+
+/* ##this is school story section */
 .story-section{
   padding: 5% 0;
 }
@@ -281,11 +282,60 @@ ul li a{
 .view-all-btn-section{
   text-align: center;
 }
-/* foooter Design */
+
+/* ##this is foooter Design */
 footer{
   background-color: var(--secondary-color-skyblue);
   padding: 5% 0;
   margin-top: 3%;
 }
+footer section{
+  margin: 0 auto;
+  max-width:1300px;
+  display: flex;
+  justify-content: space-between;
+}
+footer section .left,
+footer section .middle,
+footer section .right{
+  flex-basis: 25%;
+}
+footer section .left img{
+  position: relative;
+  right: 20px;
+  bottom: 10px;
+}
+footer section .left h3{
+  font-size: 2.3rem;
+  color: white;
+  display: inline-block;
+  margin-bottom: 0;
+  position: relative;
+  bottom: 20px;
+}
+footer section .left p{
+  font-size: 20px;
+  color: white;
+}
+footer section .middle h3,
+footer section .right h3{
+  font-size: 1.5rem;
+  color: white;
+}
+footer section .middle a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom:10%;
+  font-size: 1.1rem;
+}
+footer section .right a{
+  margin-right: 5px;
+}
+footer section .right p a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
 
-
+/* Alhamdulillah design done */

@@ -25,21 +25,11 @@
  background-color: black;
  margin-top: 20px;
 }
-.btn-three{
-  background-color: var(--one);
-  color: white;
-}
-.btn-four{
-  background-color: var(--three);
-  color: white;
-}
-.btn-five{
-  background-color: var(--three);
-  color: white;
-}
 /* Custome font Quicksand */
 .body{
   font-family: "Quicksand", serif;
+  background-color: whitesmoke;
+  margin: 0;
 }
 
 /* ##Header Part Design */
@@ -94,6 +84,9 @@ ul li a{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.fa-bars{
+  display: none;
 }
 /* banner-part */
 .banner{
@@ -189,3 +182,79 @@ ul li a{
 }
 
 /* school story section */
+.story-section{
+  padding: 5% 0;
+}
+.story-section h1{
+  text-align: center;
+  margin-bottom: 3%;
+}
+.grid-layout{
+  display: flex;
+  gap: 20px;
+}
+.left-layout{
+  background-color: white;
+  border-radius: 15px;
+}
+.left-layout time{
+ background-color: #05D4DF;
+ color: white;
+ padding: 3% 5%;
+ border-radius: 30px;
+ position: relative;
+ top:-40px;
+ cursor: grab;
+ text-wrap: nowrap;
+}
+.left-layout img,.right-layout img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.left-layout-info h3{
+  font-size: 1.5rem;
+}
+.left-layout-info p{
+ margin-top: 3rem;
+ font-size: 20px;
+}
+.left-layout-info,.right-layout-info{
+  padding: 5%;
+}
+.right-layout{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+.right-layout-child{
+  border-radius: 15px;
+  background-color: white;
+}
+.right-layout time{
+ background-color: #95B226;
+ color: white;
+ padding: 3% 5%;
+ border-radius: 30px;
+ margin-left: 5px;
+ position: relative;
+ top:-35px;
+ cursor: grab;
+ text-wrap: nowrap;
+}
+.right-layout .right-layout-box3{
+  background-color: #5D58EF;
+}
+.view-all-btn-section{
+  text-align: center;
+}
+
+/* foooter Design */
+footer{
+  background-color: var(--secondary-color-skyblue);
+  padding: 5% 0;
+  margin-top: 3%;
+}
+
+

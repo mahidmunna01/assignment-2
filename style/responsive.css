@@ -1,0 +1,69 @@
+/* Mobile Design */
+@media screen and (max-width:576px) {
+  .header,.main{
+    max-width: none;
+    width: 100%;
+  }
+  nav{
+    border-bottom: 1px solid #FEA301;
+    padding:2% 5%;
+  }
+  /* requared topics hide */
+  nav .btnone, .logo-title-part,nav ul{
+    display: none;
+  }
+  /* hamberger menu icon */
+  .fa-bars{
+    display: inline-block;
+    font-size: 25px;
+    color: black;
+  }
+  /* Banner */
+  .banner{
+  flex-direction: column-reverse;
+ }
+.banner-left,.card-style{
+  text-align: center;
+  width: 85%;
+ }
+ .banner-img{
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+ }
+ .banner-title,.Curriculum-section-info h1{
+  font-size: 20px;
+ }
+ .Curriculum-section .card-box{
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+ }
+ .Curriculum-section .card-title{
+  font-size: 1rem;
+ }
+ .Curriculum-section .card-box p {
+  font-size: 14px;
+ }
+ .next-icon{
+  display: none;
+ }
+ .Curriculum-section .card-style img{
+  margin-top: 5%;
+ }
+ 
+ /* stories Section */
+ .grid-layout .left-layout{
+  display: none;
+ }
+ .grid-layout{
+  width: 90%;
+  margin: 0 auto;
+ }
+ .grid-layout .right-layout-info h3{
+   font-size: 12px;
+ }
+ .right-layout time{
+ top:-25px;
+}
+}

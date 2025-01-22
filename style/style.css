@@ -279,6 +279,9 @@ ul li a{
 .right-layout .right-layout-box3{
   background-color: #5D58EF;
 }
+.extra-child{
+  display: none;
+}
 .view-all-btn-section{
   text-align: center;
 }

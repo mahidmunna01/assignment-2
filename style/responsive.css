@@ -3,10 +3,14 @@
   .header,.main{
     max-width: none;
     width: 100%;
+    margin-top: 0;
   }
   nav{
     border-bottom: 1px solid #FEA301;
     padding:2% 5%;
+  }
+  nav img{
+    width: 80%;
   }
   /* requared topics hide */
   nav .btnone, .logo-title-part,nav ul{
